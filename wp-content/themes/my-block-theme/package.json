@@ -4,7 +4,7 @@
     "description": "",
     "main": "index.js",
     "scripts": {
-      "start": "wp-scripts start ./our-blocks/simple.js ./our-blocks/banner.js",
+      "start": "wp-scripts start ./our-blocks/richtextbox.js ./our-blocks/simple.js ./our-blocks/banner.js",
       "dev": "wp-scripts start",
       "devFast": "wp-scripts start",
       "tes-test": "echo \"Error: no tes-test specified\" && exit 1"

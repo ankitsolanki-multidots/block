@@ -17,3 +17,13 @@ function simpleBlock() {
   }
 
   add_action('init', 'bannerBlock');
+  
+
+  function customRichBox() {
+    wp_register_script('customrichTextbox', get_stylesheet_directory_uri() . '/build/richtextbox.js', array('wp-blocks', 'wp-editor'));
+    register_block_type("ourblocktheme/customrichtext", array(
+      'editor_script' => 'customrichTextbox'
+    ));
+  }
+
+  add_action('init', 'customRichBox');
