@@ -1,0 +1,23 @@
+{
+    "name": "my-first-block-theme",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "start": "wp-scripts start ./our-blocks/simple.js ./our-blocks/banner.js",
+      "dev": "wp-scripts start",
+      "devFast": "wp-scripts start",
+      "tes-test": "echo \"Error: no tes-test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "@glidejs/glide": "^3.4.1",
+      "@wordpress/icons": "^7.0.1",
+      "@wordpress/scripts": "*",
+      "axios": "^0.21.1",
+      "normalize.css": "^8.0.1"
+    }
+  }
+  
